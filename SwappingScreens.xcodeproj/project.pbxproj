@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		10550DCA1E4151980057A931 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10550DC91E4151980057A931 /* AppDelegate.swift */; };
-		10550DCC1E4151980057A931 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10550DCB1E4151980057A931 /* ViewController.swift */; };
+		10550DCC1E4151980057A931 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10550DCB1E4151980057A931 /* LoginVC.swift */; };
 		10550DCF1E4151980057A931 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10550DCD1E4151980057A931 /* Main.storyboard */; };
 		10550DD11E4151980057A931 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10550DD01E4151980057A931 /* Assets.xcassets */; };
 		10550DD41E4151980057A931 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10550DD21E4151980057A931 /* LaunchScreen.storyboard */; };
+		10550DE01E41584B0057A931 /* PlaySongVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10550DDF1E41584B0057A931 /* PlaySongVC.swift */; };
+		10550DE21E415C660057A931 /* MusicListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10550DE11E415C660057A931 /* MusicListVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		10550DC61E4151980057A931 /* SwappingScreens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwappingScreens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10550DC91E4151980057A931 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		10550DCB1E4151980057A931 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		10550DCB1E4151980057A931 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		10550DCE1E4151980057A931 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		10550DD01E4151980057A931 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10550DD31E4151980057A931 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10550DD51E4151980057A931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10550DDF1E41584B0057A931 /* PlaySongVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySongVC.swift; sourceTree = "<group>"; };
+		10550DE11E415C660057A931 /* MusicListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicListVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +58,14 @@
 		10550DC81E4151980057A931 /* SwappingScreens */ = {
 			isa = PBXGroup;
 			children = (
+				10550DE11E415C660057A931 /* MusicListVC.swift */,
 				10550DC91E4151980057A931 /* AppDelegate.swift */,
-				10550DCB1E4151980057A931 /* ViewController.swift */,
+				10550DCB1E4151980057A931 /* LoginVC.swift */,
 				10550DCD1E4151980057A931 /* Main.storyboard */,
 				10550DD01E4151980057A931 /* Assets.xcassets */,
 				10550DD21E4151980057A931 /* LaunchScreen.storyboard */,
 				10550DD51E4151980057A931 /* Info.plist */,
+				10550DDF1E41584B0057A931 /* PlaySongVC.swift */,
 			);
 			path = SwappingScreens;
 			sourceTree = "<group>";
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10550DCC1E4151980057A931 /* ViewController.swift in Sources */,
+				10550DE01E41584B0057A931 /* PlaySongVC.swift in Sources */,
+				10550DCC1E4151980057A931 /* LoginVC.swift in Sources */,
 				10550DCA1E4151980057A931 /* AppDelegate.swift in Sources */,
+				10550DE21E415C660057A931 /* MusicListVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
